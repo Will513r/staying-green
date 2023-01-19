@@ -1,0 +1,12 @@
+body {
+    background-color: var(--brand-primary);
+}
+
+h1 {
+    text-align: center;
+}
+
+.header {
+    background-color: var(--header-background);
+    height: 100px;
+}
