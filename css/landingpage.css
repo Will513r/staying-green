@@ -8,5 +8,5 @@ h1 {
 
 .header {
     background-color: var(--header-background);
-    height: 100px;
+    height: 200px;
 }

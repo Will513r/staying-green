@@ -1,3 +1,20 @@
 .green-text {
     color: var(--brand-primary);
 }
+
+.carousel-inner {
+  width: 45% !important;
+  height: 60vh;
+  text-align: center;
+}
+
+.about-me{
+    background-color: white;
+    color: var(--brand-primary);
+}
+
+
+.contact-me{
+    background-color:var(--brand-primary);
+    text-align: center;
+}
