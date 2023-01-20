@@ -3,22 +3,22 @@
 }
 
 .carousel-inner {
-  width: 100% !important;
-  height: 60vh;
-  text-align: center;
+    width: 100% !important;
+    height: 60vh;
+    text-align: center;
 }
 
-.about-me{
+.about-me {
     background-color: white;
     color: var(--brand-primary);
 }
 
-#carouselExampleIndicators{
-   width: 30% !important;
-  height: 60vh; 
+#carouselExampleIndicators {
+    width: 30% !important;
+    height: 60vh;
 }
 
-.contact-me{
-    background-color:var(--brand-primary);
+.contact-me {
+    background-color: var(--brand-primary);
     text-align: center;
 }
