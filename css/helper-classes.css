@@ -1,5 +1,7 @@
 .green-text {
     color: var(--brand-primary);
+    padding-top: 20px;
+    
 }
 
 .carousel-inner {
@@ -8,18 +10,39 @@
     text-align: center;
 }
 
-.about-me {
-    background-color: white;
-    color: var(--brand-primary);
+.what-we-do{
+    /* padding: 20px; */
+    text-align: center;
+    margin: 30px;
 }
+
 
 #carouselExampleIndicators {
     width: 30% !important;
     height: 60vh;
+    margin-left: 35%;
+    padding-top: 30px;
+}
+
+.about-me {
+    background-color: white;
+    color: var(--brand-primary);
+height: 40vh;
+}
+    
+
+.a-me{
+    margin: 20px;
+    padding: 20px;
 }
 
 .contact-me {
     background-color: var(--brand-primary);
     text-align: center;
+    margin: 20px;
 }
+
+
+
+
 
