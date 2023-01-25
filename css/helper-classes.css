@@ -4,6 +4,13 @@
     
 }
 
+.contact-me-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .carousel-inner {
     width: 100% !important;
     height: 60vh;
@@ -14,6 +21,7 @@
     /* padding: 20px; */
     text-align: center;
     margin: 30px;
+    color: white;
 }
 
 
@@ -40,6 +48,7 @@ height: 40vh;
     background-color: var(--brand-primary);
     text-align: center;
     margin: 20px;
+    color: white;
 }
 
 
