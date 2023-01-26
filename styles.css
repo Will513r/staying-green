@@ -1,3 +1,60 @@
-@import "css/variables.css";
-@import "css/helper-classes.css";
-@import "css/landingpage.css";
+@import 'css/variables.css';
+@import 'css/helper-classes.css';
+@import 'css/landingpage.css';
+
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+label {
+	display: block;
+}
+
+li {
+	margin-left: 2rem;
+}
+input,
+textarea {
+	border-radius: 10px;
+}
+
+.title-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2rem;
+	position: relative;
+}
+
+.stay-green-pic {
+	width: 300px;
+	height: 100px;
+	margin: auto;
+}
+
+.submit-btn {
+	padding: 10px 20px;
+	border-radius: 12px;
+	transition: transform 200ms;
+}
+
+.submit-btn:hover {
+	transform: scale(1.1);
+	background: linear-gradient(
+		285deg,
+		rgb(46, 182, 48) 0%,
+		rgba(93, 150, 38, 1) 50%,
+		rgba(13, 102, 14, 1) 100%
+	);
+	color: white;
+	font-weight: 700;
+}
+
+.gradient-bg {
+	background: linear-gradient(
+		285deg,
+		rgb(46, 182, 48) 0%,
+		rgba(93, 150, 38, 1) 50%,
+		rgba(13, 102, 14, 1) 100%
+	);
+}
