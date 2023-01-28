@@ -3,10 +3,31 @@ body {
 }
 
 h1 {
+    padding: 20px;
     text-align: center;
+
 }
 
 .header {
     background-color: var(--header-background);
-    height: 200px;
+    
+}
+
+.staying-green{
+    padding: 5%;
+}
+
+.header-pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.header-img{
+    /* border-radius: 50%; */
+    height: 25%;
+    width: 50%;
 }
