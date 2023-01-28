@@ -1,0 +1,12 @@
+.header {
+    background-color: var(--header-background);
+}
+
+.header-img {
+    height: 25%;
+    width: 50%;
+}
+
+.staying-green {
+    padding: 5%;
+}

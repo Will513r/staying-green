@@ -1,0 +1,28 @@
+body {
+    background-color: var(--brand-primary);
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+li {
+    margin-left: 2rem;
+}
+
+input,
+textarea {
+    border-radius: 10px;
+}
+
+.stay-green-pic {
+    width: 300px;
+    height: 100px;
+    margin: auto;
+}

@@ -1,57 +1,13 @@
 .green-text {
     color: var(--brand-primary);
     padding-top: 20px;
-    
 }
 
-.contact-me-btn{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.gradient-bg {
+    background: linear-gradient(
+            285deg,
+            rgb(46, 182, 48) 0%,
+            rgba(93, 150, 38, 1) 50%,
+            rgba(13, 102, 14, 1) 100%
+    );
 }
-
-.carousel-inner {
-    width: 100% !important;
-    height: 60vh;
-    text-align: center;
-}
-
-.what-we-do{
-    /* padding: 20px; */
-    text-align: center;
-    margin: 30px;
-    color: white;
-}
-
-
-#carouselExampleIndicators {
-    width: 30% !important;
-    height: 60vh;
-    margin-left: 35%;
-    padding-top: 30px;
-}
-
-.about-me {
-    background-color: white;
-    color: var(--brand-primary);
-height: 40vh;
-}
-    
-
-.a-me{
-    margin: 20px;
-    padding: 20px;
-}
-
-.contact-me {
-    background-color: var(--brand-primary);
-    text-align: center;
-    margin: 20px;
-    color: white;
-}
-
-
-
-
-
