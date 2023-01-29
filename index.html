@@ -44,8 +44,8 @@
         <p class="mb-5">
             Our landscaping company is dedicated to providing high-quality, professional services to enhance the beauty
             and value of your property.
-            <span style="text-decoration: underline">We specialize in all aspects of landscape design, installation, and maintenance, including</span>
-            <span style="font-weight: 700">: lawn care, tree and shrub care, hardscaping, irrigation, and seasonal color.</span>
+            <span class="border-bottom">We specialize in all aspects of landscape design, installation, and maintenance, including</span>
+            <span class="font-weight-bold">: lawn care, tree and shrub care, hardscaping, irrigation, and seasonal color.</span>
             Our team of experienced and skilled professionals is committed to delivering exceptional results, using only
             the best quality materials and equipment. We work closely with our clients to understand their needs and
             preferences, and to create customized landscaping solutions that are tailored to their specific goals.
@@ -107,24 +107,24 @@
     <div class="container py-5">
         <h2 class="mb-4 pb-2 border-bottom">Contact</h2>
         <form action="submit" method="post">
-            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                <div style="display: flex; justify-content: center; flex-flow: wrap">
-                    <div style="margin: 0.5rem">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <div class="d-flex justify-content-center flex-wrap">
+                    <div class="m-2">
                         <label for="name">Name:</label>
-                        <input style="" type="text" id="name" name="name" required/>
+                        <input type="text" id="name" name="name" required/>
                     </div>
-                    <div style="margin: 0.5rem">
+                    <div class="m-2">
                         <label for="email">Email:</label>
-                        <input style="width: 250px" type="email" id="email" name="email" required/>
+                        <input type="email" id="email" name="email" required/>
                     </div>
-                    <div style="margin: 0.5rem">
+                    <div class="m-2">
                         <label for="phone">Phone:</label>
-                        <input style="margin-bottom: 1rem" type="tel" id="phone" name="phone" required/>
+                        <input class="mb-3" type="tel" id="phone" name="phone" required/>
                     </div>
                 </div>
                 <div class="w-100">
                     <label for="message">Message:</label>
-                    <textarea style="height: 10rem; width: 75%; padding: 1rem; max-width: 700px" id="message"
+                    <textarea class="p-3" id="message"
                               name="message"
                               required></textarea>
                 </div>
