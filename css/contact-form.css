@@ -1,0 +1,27 @@
+.contact-me {
+    background-color: var(--brand-primary);
+}
+
+.contact-me textarea {
+    height: 10rem;
+    width: 75%;
+    max-width: 700px
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: transform 200ms;
+}
+
+.submit-btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(
+            285deg,
+            rgb(46, 182, 48) 0%,
+            rgba(93, 150, 38, 1) 50%,
+            rgba(13, 102, 14, 1) 100%
+    );
+    color: var(--white);
+    font-weight: 700;
+}
