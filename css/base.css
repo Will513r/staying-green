@@ -7,6 +7,17 @@ h1 {
     padding: 20px;
     text-align: center;
 }
+h3{
+    padding: 17px;
+    text-align: center;
+}
+p{
+    padding: 17px;
+    text-align: center;
+}
+.us-pic{
+    text-align: center;
+}
 
 label {
     display: block;
@@ -22,7 +33,12 @@ textarea {
 }
 
 .stay-green-pic {
-    width: 300px;
-    height: 100px;
+    width: 50%;
+    height: 200px;
     margin: auto;
+}
+
+.about-us-pic{
+    width: 40%;
+    height: 30%;
 }
