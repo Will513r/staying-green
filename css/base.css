@@ -1,44 +1,47 @@
 body {
-    background-color: var(--brand-primary);
-    font-family: 'Quicksand', sans-serif;
+  background-color: var(--brand-primary);
+  font-family: "Quicksand", sans-serif;
 }
 
 h1 {
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  text-align: center;
 }
-h3{
-    padding: 17px;
-    text-align: center;
+h3 {
+  padding: 17px;
+  text-align: center;
 }
-p{
-    padding: 17px;
-    text-align: center;
+p {
+  padding: 17px;
+  text-align: center;
 }
-.us-pic{
-    text-align: center;
+.us-pic {
+  text-align: center;
 }
 
 label {
-    display: block;
+  display: block;
 }
 
 li {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 
 input,
 textarea {
-    border-radius: 10px;
+  border-radius: 10px;
 }
+
+
 
 .stay-green-pic {
     width: 50%;
-    height: 200px;
+    height: 50%;
     margin: auto;
-}
+    object-fit: contain; 
+}  
 
-.about-us-pic{
-    width: 40%;
-    height: 30%;
+.about-us-pic {
+  width: 40%;
+  height: 30%;
 }
